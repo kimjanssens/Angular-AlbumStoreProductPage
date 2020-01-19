@@ -19,4 +19,6 @@ export class ProductService {
       <Album>response.json());
   }
 
+  getProducts() {}
+
 }
