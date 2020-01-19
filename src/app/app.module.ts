@@ -13,6 +13,11 @@ import { ProductListComponent } from './product-list/product-list.component';
 
 const appRoutes: Routes = [
   {
+    path: '',
+    redirectTo: 'products',
+    pathMatch: 'full'
+  },
+  {
     path: 'products',
     component: ProductListComponent
   },
